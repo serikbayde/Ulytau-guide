@@ -1,0 +1,4 @@
+# Зависимости бота «Ұлытау гид» (Python 3.11+)
+aiogram==3.31.0        # Telegram Bot API
+google-genai==3.0.0    # Gemini API (AI-гид)
+python-dotenv==1.2.4   # чтение секретов из .env

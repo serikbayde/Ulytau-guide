@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "time_note": "Время в пути — оценка: расстояние по данным источников или по прямой ×1,3, средняя скорость ≈60 км/ч по трассе и ≈35–40 км/ч по степным/грунтовым участкам. Перед поездкой проверьте маршрут в навигаторе и уточните состояние дорог.",
+    "start_point": "Жезказган"
+  },
+  "routes": [
+    {
+      "id": "one_day_karakengir",
+      "duration_days": 1,
+      "duration": {"kk": "1 күн", "ru": "1 день", "en": "1 day"},
+      "title": {
+        "kk": "Қаракеңгір кесенелері",
+        "ru": "Мавзолеи долины Каракенгир",
+        "en": "Mausoleums of the Karakengir Valley"
+      },
+      "summary": {
+        "kk": "Жезқазғаннан бір күнде: Жошы хан, Домбауыл және Алаша хан кесенелері, кешке — қала мұражайы мен су қоймасы.",
+        "ru": "За один день из Жезказгана: мавзолеи Жошы хана, Домбауыл и Алаша хана, вечером — музей и водохранилище.",
+        "en": "A day trip from Zhezkazgan: the Jochi Khan, Dombauyl and Alasha Khan mausoleums, then the city museum and reservoir in the evening."
+      },
+      "total_distance_km": 170,
+      "stops": [
+        {"place_id": "zhoshy_khan", "from": "Жезказган", "travel_km": 50, "travel_min": 60, "visit_min": 60},
+        {"place_id": "dombauyl", "from": "zhoshy_khan", "travel_km": 6, "travel_min": 15, "visit_min": 30},
+        {"place_id": "alasha_khan", "from": "dombauyl", "travel_km": 25, "travel_min": 45, "visit_min": 45},
+        {"place_id": "zhezkazgan_museum", "from": "alasha_khan", "travel_km": 85, "travel_min": 90, "visit_min": 75},
+        {"place_id": "kengir_reservoir", "from": "zhezkazgan_museum", "travel_km": 3, "travel_min": 10, "visit_min": 45}
+      ],
+      "plan": {
+        "kk": [
+          "08:30 — Жезқазғаннан шығу (≈50 км, ≈1 сағ).",
+          "09:30 — Жошы хан кесенесі (≈1 сағ).",
+          "10:45 — Домбауыл кесенесі: солтүстікке ≈5–6 км, ≈15 мин (≈30 мин).",
+          "11:30 — Алаша хан кесенесіне жол (≈25 км, ≈45 мин — жол жағдайына байланысты). Түскі асты өзіңізбен бірге алыңыз.",
+          "12:15 — Алаша хан кесенесі (≈45 мин).",
+          "13:00 — Жезқазғанға оралу (≈85 км, ≈1,5 сағ).",
+          "15:00 — Жезқазған тарихи-археологиялық музейі (≈1–1,5 сағ).",
+          "17:00 — Кеңгір су қоймасы жағасында серуен, күн бату."
+        ],
+        "ru": [
+          "08:30 — выезд из Жезказгана (≈50 км, ≈1 ч).",
+          "09:30 — мавзолей Жошы хана (≈1 ч).",
+          "10:45 — мавзолей Домбауыл: ≈5–6 км на север, ≈15 мин (≈30 мин на осмотр).",
+          "11:30 — переезд к мавзолею Алаша хана (≈25 км, ≈45 мин — зависит от дороги). Обед возьмите с собой.",
+          "12:15 — мавзолей Алаша хана (≈45 мин).",
+          "13:00 — возвращение в Жезказган (≈85 км, ≈1,5 ч).",
+          "15:00 — Жезказганский историко-археологический музей (≈1–1,5 ч).",
+          "17:00 — прогулка у Кенгирского водохранилища, закат."
+        ],
+        "en": [
+          "08:30 — leave Zhezkazgan (≈50 km, ≈1 h).",
+          "09:30 — Jochi Khan Mausoleum (≈1 h).",
+          "10:45 — Dombauyl Mausoleum: ≈5–6 km north, ≈15 min (≈30 min visit).",
+          "11:30 — drive to the Alasha Khan Mausoleum (≈25 km, ≈45 min depending on the road). Bring a packed lunch.",
+          "12:15 — Alasha Khan Mausoleum (≈45 min).",
+          "13:00 — drive back to Zhezkazgan (≈85 km, ≈1.5 h).",
+          "15:00 — Zhezkazgan Historical and Archaeological Museum (≈1–1.5 h).",
+          "17:00 — sunset walk by the Kengir Reservoir."
+        ]
+      },
+      "notes": {
+        "kk": "Домбауыл мен Алаша хан кесенесінің арасындағы жол бойынша нақты қашықтық дереккөздерде жоқ — 25 км бағалау (түзу сызықпен ≈20 км). Жолды навигатордан тексеріңіз.",
+        "ru": "Точного дорожного расстояния между Домбауылом и мавзолеем Алаша хана в источниках нет — 25 км это оценка (по прямой ≈20 км). Проверьте маршрут в навигаторе.",
+        "en": "Sources give no exact road distance between Dombauyl and the Alasha Khan Mausoleum — 25 km is an estimate (≈20 km in a straight line). Check the route in a navigation app."
+      }
+    },
+    {
+      "id": "two_days_ulytau",
+      "duration_days": 2,
+      "duration": {"kk": "2 күн", "ru": "2 дня", "en": "2 days"},
+      "title": {
+        "kk": "Ұлытау — елдің жүрегі",
+        "ru": "Улытау — сердце страны",
+        "en": "Ulytau — the Heart of the Country"
+      },
+      "summary": {
+        "kk": "Ұлытау тауларына екі күндік сапар: Аяққамыр, Бірлік монументі, Ұлытау ауылы мен қорық-мұражай, Әулиетауға шығу және Едіге тауы.",
+        "ru": "Два дня в горах Улытау: Аяккамыр, монумент Единства, село Улытау и музей-заповедник, восхождение на Аулиетау и гора Едиге.",
+        "en": "Two days in the Ulytau mountains: Ayakkamyr, the Unity Monument, Ulytau village and the Reserve-Museum, a climb up Auliye-tau and Mount Edige."
+      },
+      "total_distance_km": 330,
+      "stops": [
+        {"place_id": "ayakkamyr", "from": "Жезказган", "travel_km": 85, "travel_min": 100, "visit_min": 45, "day": 1},
+        {"place_id": "unity_monument", "from": "ayakkamyr", "travel_km": 65, "travel_min": 75, "visit_min": 20, "day": 1},
+        {"place_id": "ulytau_village", "from": "unity_monument", "travel_km": 10, "travel_min": 15, "visit_min": 150, "day": 1},
+        {"place_id": "aulietau", "from": "ulytau_village", "travel_km": 6, "travel_min": 15, "visit_min": 180, "day": 2},
+        {"place_id": "ulytau_national_park", "from": "aulietau", "travel_km": 0, "travel_min": 0, "visit_min": 0, "day": 2},
+        {"place_id": "edige_tau", "from": "aulietau", "travel_km": 25, "travel_min": 45, "visit_min": 60, "day": 2}
+      ],
+      "plan": {
+        "kk": [
+          "1-КҮН",
+          "08:00 — Жезқазғаннан Сәтбаев пен Жезді арқылы шығу (≈85 км, ≈1 сағ 40 мин — бағалау).",
+          "09:45 — Аяққамыр қалашығы мен кесенесі (≈45 мин).",
+          "10:30 — Ұлытауға қарай жол (≈65 км, ≈1 сағ 15 мин), жолда — Бірлік монументі (≈20 мин).",
+          "12:30 — Ұлытау ауылы: түскі ас, «Ұлытау» қорық-мұражайы, қазақ хандары алаңы (ауыл бойынша 8 км экскурсия).",
+          "Кеш — Ұлытауда түнеу (орынды алдын ала брондаңыз).",
+          "2-КҮН",
+          "07:30 — Әулиетауға (Ақмешіт) шығу, «Ұлытау» ұлттық паркінің аумағы (шығып-түсу ≈3 сағ).",
+          "11:30 — Едіге тауына гидпен бару (17–35 км — дереккөздер әртүрлі, ≈45 мин).",
+          "13:30 — Түскі ас, Жезқазғанға оралу (≈130 км тас жолмен, ≈2–2,5 сағ)."
+        ],
+        "ru": [
+          "ДЕНЬ 1",
+          "08:00 — выезд из Жезказгана через Сатпаев и Жезды (≈85 км, ≈1 ч 40 мин — оценка).",
+          "09:45 — городище и мавзолей Аяккамыр (≈45 мин).",
+          "10:30 — дорога на Улытау (≈65 км, ≈1 ч 15 мин), по пути — монумент Единства (≈20 мин).",
+          "12:30 — село Улытау: обед, музей-заповедник «Ұлытау», площадь казахских ханов (экскурсия по селу 8 км).",
+          "Вечер — ночлег в Улытау (бронируйте заранее).",
+          "ДЕНЬ 2",
+          "07:30 — восхождение на Аулиетау (Акмешит), территория нацпарка «Ұлытау» (подъём и спуск ≈3 ч).",
+          "11:30 — гора Едиге с гидом (17–35 км — источники расходятся, ≈45 мин).",
+          "13:30 — обед и возвращение в Жезказган (≈130 км по трассе, ≈2–2,5 ч)."
+        ],
+        "en": [
+          "DAY 1",
+          "08:00 — leave Zhezkazgan via Satpayev and Zhezdy (≈85 km, ≈1 h 40 min — estimate).",
+          "09:45 — Ayakkamyr settlement and mausoleum (≈45 min).",
+          "10:30 — drive towards Ulytau (≈65 km, ≈1 h 15 min), stopping at the Unity Monument (≈20 min).",
+          "12:30 — Ulytau village: lunch, the Ulytau Reserve-Museum, the Square of the Kazakh Khans (8 km village tour).",
+          "Evening — overnight in Ulytau (book in advance).",
+          "DAY 2",
+          "07:30 — climb Auliye-tau (Akmeshit) in Ulytau National Park (≈3 h up and down).",
+          "11:30 — Mount Edige with a guide (17–35 km — sources disagree, ≈45 min).",
+          "13:30 — lunch and drive back to Zhezkazgan (≈130 km by highway, ≈2–2.5 h)."
+        ]
+      },
+      "notes": {
+        "kk": "Жезқазған — Ұлытау 130 км қашықтығы қорық-мұражай дерегінен алынды. Аяққамырға бұрылыс жолының ұзындығы — бағалау. Едіге тауына жолды тек гидпен жүріңіз.",
+        "ru": "Расстояние Жезказган — Улытау 130 км взято из данных музея-заповедника. Крюк к Аяккамыру — оценка. К горе Едиге — только с гидом.",
+        "en": "The 130 km Zhezkazgan–Ulytau distance comes from the Reserve-Museum. The detour to Ayakkamyr is an estimate. Go to Mount Edige only with a guide."
+      }
+    },
+    {
+      "id": "weekend_copper_and_rock_art",
+      "duration_days": 2,
+      "duration": {"kk": "Демалыс күндері (сенбі–жексенбі)", "ru": "Выходные (сб–вс)", "en": "Weekend (Sat–Sun)"},
+      "title": {
+        "kk": "Мыс өлкесі және ежелгі суреттер",
+        "ru": "Медный край и древние петроглифы",
+        "en": "Copper Country and Ancient Rock Art"
+      },
+      "summary": {
+        "kk": "Жезқазғанда тұрып, екі бағытқа сапар: сенбіде — Қарсақбай мен Сәтбаев мұражайы, жексенбіде — Теректі-Әулие петроглифтері.",
+        "ru": "С базой в Жезказгане: в субботу — Карсакпай и дом-музей Сатпаева, в воскресенье — петроглифы Теректы-Аулие.",
+        "en": "Based in Zhezkazgan: Saturday — Karsakpay and the Satpayev house-museum; Sunday — the Terekty-Aulie petroglyphs."
+      },
+      "total_distance_km": 380,
+      "stops": [
+        {"place_id": "zhezkazgan_museum", "from": "Жезказган", "travel_km": 0, "travel_min": 0, "visit_min": 75, "day": 1},
+        {"place_id": "karsakpay", "from": "zhezkazgan_museum", "travel_km": 95, "travel_min": 110, "visit_min": 90, "day": 1},
+        {"place_id": "kengir_reservoir", "from": "karsakpay", "travel_km": 95, "travel_min": 110, "visit_min": 45, "day": 1},
+        {"place_id": "terekti_aulie", "from": "Жезказган", "travel_km": 90, "travel_min": 120, "visit_min": 120, "day": 2}
+      ],
+      "plan": {
+        "kk": [
+          "СЕНБІ",
+          "09:30 — Жезқазған тарихи-археологиялық музейі (≈1–1,5 сағ): мыс өлкесі тарихымен танысу.",
+          "11:30 — Қарсақбайға жол (түзу сызықпен ≈71 км, жолмен ≈95 км — бағалау, ≈2 сағ).",
+          "13:30 — Қарсақбай: Қ. Сәтбаевтың үй-мұражайы және мыс балқыту зауытының тарихы (≈1,5 сағ).",
+          "15:30 — Жезқазғанға оралу (≈2 сағ).",
+          "18:00 — Кеңгір су қоймасы жағасында күн бату.",
+          "ЖЕКСЕНБІ",
+          "08:00 — Теректі-Әулие петроглифтеріне жол (≈80–90 км, ≈2 сағ — соңғы бөлігі гидпен).",
+          "10:00 — Петроглифтер мен қорым (≈2 сағ; таңертеңгі қиғаш жарықта суреттер жақсы көрінеді).",
+          "12:00 — Жезқазғанға оралу (≈2 сағ). Уақыт қалса — Болған ана кесенесіне (оңтүстікке ≈50 км) баруға болады."
+        ],
+        "ru": [
+          "СУББОТА",
+          "09:30 — Жезказганский историко-археологический музей (≈1–1,5 ч): история медного края.",
+          "11:30 — дорога в Карсакпай (по прямой ≈71 км, по дороге ≈95 км — оценка, ≈2 ч).",
+          "13:30 — Карсакпай: дом-музей К. Сатпаева и история медеплавильного завода (≈1,5 ч).",
+          "15:30 — возвращение в Жезказган (≈2 ч).",
+          "18:00 — закат у Кенгирского водохранилища.",
+          "ВОСКРЕСЕНЬЕ",
+          "08:00 — дорога к петроглифам Теректы-Аулие (≈80–90 км, ≈2 ч; последний участок — с гидом).",
+          "10:00 — петроглифы и некрополь (≈2 ч; утром при косом свете рисунки видны лучше).",
+          "12:00 — возвращение в Жезказган (≈2 ч). Если останется время — мавзолей Болган-ана (≈50 км на юг)."
+        ],
+        "en": [
+          "SATURDAY",
+          "09:30 — Zhezkazgan Historical and Archaeological Museum (≈1–1.5 h): the story of the copper region.",
+          "11:30 — drive to Karsakpay (≈71 km straight line, ≈95 km by road — estimate, ≈2 h).",
+          "13:30 — Karsakpay: the Kanysh Satpayev house-museum and the copper smelter's history (≈1.5 h).",
+          "15:30 — drive back to Zhezkazgan (≈2 h).",
+          "18:00 — sunset at the Kengir Reservoir.",
+          "SUNDAY",
+          "08:00 — drive to the Terekty-Aulie petroglyphs (≈80–90 km, ≈2 h; last stretch with a guide).",
+          "10:00 — petroglyphs and necropolis (≈2 h; the carvings show best in low morning light).",
+          "12:00 — drive back to Zhezkazgan (≈2 h). If time allows, visit the Bolgan Ana Mausoleum (≈50 km south)."
+        ]
+      },
+      "notes": {
+        "kk": "Қарсақбайға дейінгі жол қашықтығы дереккөздерде табылмады — 95 км түзу сызықтан есептелген бағалау. Мұражайлардың жұмыс уақытын алдын ала телефонмен нақтылаңыз.",
+        "ru": "Дорожное расстояние до Карсакпая в источниках не найдено — 95 км это оценка от расстояния по прямой. Часы работы музеев уточните заранее по телефону.",
+        "en": "The road distance to Karsakpay was not found in sources — 95 km is an estimate based on the straight-line distance. Confirm museum opening hours by phone in advance."
+      }
+    }
+  ]
+}

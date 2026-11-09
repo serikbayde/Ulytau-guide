@@ -1,0 +1,31 @@
+# systemd-сервис для бота «Ұлытау гид»
+# Установка: sudo cp deploy/ulytau-guide.service /etc/systemd/system/
+#            sudo systemctl daemon-reload && sudo systemctl enable --now ulytau-guide
+
+[Unit]
+Description=Ulytau Guide Telegram bot
+# Запускаемся после того, как появилась сеть
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ulytau
+Group=ulytau
+WorkingDirectory=/opt/ulytau_guide
+ExecStart=/opt/ulytau_guide/.venv/bin/python bot.py
+Environment=PYTHONUNBUFFERED=1
+
+# Если бот упал — перезапустить через 10 секунд (работа 24/7)
+Restart=always
+RestartSec=10
+
+# Защита: процесс не может менять систему, писать можно только в var/
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/opt/ulytau_guide/var
+
+[Install]
+WantedBy=multi-user.target

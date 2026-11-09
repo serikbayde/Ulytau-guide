@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "title": "Ұлытау гид — достопримечательности области Ұлытау",
+    "collected_at": "2026-11-09",
+    "reference_point": {
+      "name": "Жезказган (центр города)",
+      "lat": 47.7833,
+      "lon": 67.7,
+      "source": "https://aroundus.com/p/8375693-jezkazgan"
+    },
+    "distance_note": "distance_from_zhezkazgan_km — ориентир. Если в distance_text указано «по прямой», значение рассчитано по координатам (формула гаверсинуса), а не взято из источника. Дорожные расстояния больше.",
+    "method_note": "Данные собраны через веб-поиск (выдержки из страниц-источников). Прямое открытие сайтов в среде сбора было заблокировано сетевой политикой, поэтому ключевые факты рекомендуется перепроверить вручную по ссылкам в sources (см. DATA_REPORT.md)."
+  },
+  "places": [
+    {
+      "id": "zhoshy_khan",
+      "category": "sacred",
+      "name": {
+        "kk": "Жошы хан кесенесі",
+        "ru": "Мавзолей Жошы хана (Джучи)",
+        "en": "Jochi Khan Mausoleum"
+      },
+      "description": {
+        "kk": "Қаракеңгір өзенінің жағасында күйдірілген кірпіштен салынған порталды-күмбезді кесене. Дәстүр бойынша мұнда Шыңғыс ханның үлкен ұлы Жошы жерленген деп саналады. Ескерткіш XIII–XIV ғасырларға жатқызылады және республикалық маңызы бар тарихи ескерткіштердің мемлекеттік тізіміне енгізілген. 1946 жылы Әлкей Марғұлан экспедициясы кесенені ашып, оң қолы жоқ адамның сүйегін тапқан. 2022 жылғы радиокөміртекті зерттеу мұнда дәл Жошының жерленгеніне күмән келтіреді.",
+        "ru": "Портально-купольный мавзолей из обожжённого кирпича на берегу реки Каракенгир. По традиции считается местом погребения Жошы (Джучи) — старшего сына Чингисхана. Памятник датируют XIII–XIV веками, он внесён в Государственный список памятников истории и культуры республиканского значения. В 1946 году экспедиция Алькея Маргулана вскрыла мавзолей и обнаружила останки человека без правой руки. Радиоуглеродное исследование 2022 года ставит под сомнение, что здесь похоронен именно Жошы.",
+        "en": "A portal-domed mausoleum of fired brick on the bank of the Karakengir River. By tradition it is considered the burial place of Jochi, the eldest son of Genghis Khan. The monument is dated to the 13th–14th centuries and is on the State List of historical and cultural monuments of national significance. In 1946 Alkey Margulan's expedition opened the tomb and found the remains of a man without his right hand. A 2022 radiocarbon study questions whether Jochi himself is buried here."
+      },
+      "how_to_get": {
+        "kk": "Жезқазғаннан солтүстік-шығысқа қарай шамамен 45–55 км (дереккөздерде әртүрлі), Малшыбай ауылына жақын. Жеке көлікпен немесе экскурсиялық топпен баруға болады. Кесенеге көрсеткіштері бар жол апарады; 2024 жылы жаңа асфальт жолдың құрылысы басталды.",
+        "ru": "≈45–55 км к северо-востоку от Жезказгана (оценки источников разнятся), недалеко от села Малшыбай. Добраться можно на своём автомобиле или с экскурсионной группой. К мавзолею ведёт дорога с указателями; в 2024 году началось строительство новой асфальтированной дороги.",
+        "en": "About 45–55 km north-east of Zhezkazgan (sources differ), near the village of Malshybai. Reachable by car or with a tour group. A signposted road leads to the mausoleum; construction of a new paved road began in 2024."
+      },
+      "tips": {
+        "kk": "Қолайлы маусым — көктем мен ерте күз: жазда далада ыстық болады. Бұл — киелі орын: әдепті сақтап, ұқыпты киініңіз. Жанынан 5–6 км жерде Домбауыл кесенесі бар — екеуін бірге көріңіз.",
+        "ru": "Лучший сезон — весна и начало осени: летом в степи жарко. Это сакральное место: соблюдайте тишину и одевайтесь скромно. В 5–6 км — мавзолей Домбауыл, удобно посетить вместе.",
+        "en": "Best season: spring and early autumn — summers in the steppe are hot. This is a sacred site: be quiet and dress modestly. Dombauyl Mausoleum is 5–6 km away, so visit both together."
+      },
+      "coordinates": {"lat": 48.1549, "lon": 67.821},
+      "distance_from_zhezkazgan_km": 50,
+      "distance_text": {
+        "kk": "≈45–55 км (дереккөздер бойынша)",
+        "ru": "≈45–55 км (по данным источников)",
+        "en": "≈45–55 km (according to sources)"
+      },
+      "sources": [
+        "https://wildticketasia.com/1316-jochi-khan-mausoleum.html",
+        "https://qazaqstan3d.kz/en/place/view?id=72",
+        "https://archaeology.kz/en/heritages/120-zhoshy-han-kesenesi",
+        "https://www.inform.kz/ru/chto-izvestno-o-syne-chingizhana-dzhuchi-i-ego-mavzolee-v-kazahstane_a3559481",
+        "https://oq.gov.kz/en/abai/zhoshy-khan-kesenesi",
+        "https://welcome.kz/en/info-cities/ulytau-region/jochi-mausoleum",
+        "https://newtimes.kz/politika/211623-mongoly-proveli-obriad-u-mogily-zhoshy-khana-v-kazakhstane",
+        "https://www.cambridge.org/core/product/3B95527C5CB2DA08DC98D6136F0E5EFC/core-reader"
+      ],
+      "verified": true,
+      "verification_note": "Координаты по двум источникам: wildticketasia (48.1553, 67.8175) и qazaqstan3d.kz (48.1545, 67.8244), расхождение ≈0,5 км; взято среднее. Расстояние от Жезказгана в источниках 45, 50 и 55 км."
+    },
+    {
+      "id": "dombauyl",
+      "category": "sacred",
+      "name": {
+        "kk": "Домбауыл кесенесі",
+        "ru": "Мавзолей Домбауыл",
+        "en": "Dombauyl Mausoleum"
+      },
+      "description": {
+        "kk": "Әрі кесенеге, әрі алып тас киіз үйге ұқсайтын ерекше тас құрылыс. Туристік дереккөздер оны VIII–IX ғасырларға жатқызады, ал мемлекеттік ескерткіштер тізілімі 1000–1300 жылдармен белгілейді. Ғалымдар оның қызметі туралы әлі де келіспейді: кесене ме, әлде исламға дейінгі ғибадат орны ма. Танымал аңыз бойынша Домбауыл — Жошы ханның серігі болған жауынгер әрі күйші. Кесенеден Жошы хан кесенесі тікелей көрінеді.",
+        "ru": "Необычное каменное сооружение, напоминающее одновременно мавзолей и огромную каменную юрту. Туристические источники относят его к VIII–IX векам, а государственный реестр памятников — к 1000–1300 годам. Учёные спорят о его назначении: мавзолей это или доисламское святилище. По популярной легенде, Домбауыл — воин и музыкант, сподвижник Жошы хана. От сооружения открывается прямая видимость на мавзолей Жошы хана.",
+        "en": "An unusual stone structure that resembles both a mausoleum and a giant stone yurt. Tourism sources date it to the 8th–9th centuries, while the state heritage register gives 1000–1300. Scholars still debate its purpose: a mausoleum or a pre-Islamic sanctuary. A popular legend says Dombauyl was a warrior and musician, a companion of Jochi Khan. There is a direct line of sight from it to the Jochi Khan Mausoleum."
+      },
+      "how_to_get": {
+        "kk": "Жошы хан кесенесінен солтүстікке қарай шамамен 5–6 км, сол жолмен. Жезқазғаннан ≈50–55 км. Жошы хан кесенесімен бірге көрген ыңғайлы.",
+        "ru": "Примерно в 5–6 км к северу от мавзолея Жошы хана по той же дороге. От Жезказгана ≈50–55 км. Удобно посещать вместе с мавзолеем Жошы хана.",
+        "en": "About 5–6 km north of the Jochi Khan Mausoleum along the same road. About 50–55 km from Zhezkazgan. Easy to combine with the Jochi Khan Mausoleum."
+      },
+      "tips": {
+        "kk": "Ескерткіштің қабырғаларын ұстамаңыз және үстіне шықпаңыз. Фотоға таңертеңгі не кешкі жарық жақсы. Дала жолы шаңды болуы мүмкін.",
+        "ru": "Не трогайте кладку и не забирайтесь на сооружение. Для фото лучше утренний или вечерний свет. Степная дорога может быть пыльной.",
+        "en": "Do not touch or climb the masonry. Morning or evening light is best for photos. The steppe road can be dusty."
+      },
+      "coordinates": {"lat": 48.1933, "lon": 67.8447},
+      "distance_from_zhezkazgan_km": 53,
+      "distance_text": {
+        "kk": "≈50–55 км (дереккөздер бойынша)",
+        "ru": "≈50–55 км (по данным источников)",
+        "en": "≈50–55 km (according to sources)"
+      },
+      "sources": [
+        "https://wildticketasia.com/1311-dombaul-mausoleum.html",
+        "https://eurasia.travel/kazakhstan/karaganda/dombaul-mausoleum/",
+        "https://welcome.kz/en/info-cities/ulytau-region/dombauyl",
+        "https://archaeology.kz/en/heritages/119-dombauyl-dini-guryptyq-qurylysy",
+        "https://kazakhstan.travel/en/tourist-spot/77/mausoleums-of-jochi-khan-alasha-khan-and-dombauyl",
+        "https://whc.unesco.org/en/tentativelists/6913/"
+      ],
+      "verified": false,
+      "verification_note": "Точные координаты найдены только в одном источнике (wildticketasia: N48°11'36\" E67°50'41\"). Они согласуются с описаниями «≈5–6 км к северу от мавзолея Жошы хана» (eurasia.travel, welcome.kz), но второй источник с координатами не найден. Лист UNESCO даёт округлённые N48°31' E67°17' — это, вероятно, точка всей номинации. Датировка спорная (VIII–IX вв. vs 1000–1300 гг.). Проверить по карте/на месте."
+    },
+    {
+      "id": "alasha_khan",
+      "category": "sacred",
+      "name": {
+        "kk": "Алаша хан кесенесі",
+        "ru": "Мавзолей Алаша хана",
+        "en": "Alasha Khan Mausoleum"
+      },
+      "description": {
+        "kk": "Кірпіштен салынған порталды-күмбезді кесене; бас қасбеті геометриялық өрнегі бар терракота плиткалармен әшекейленген. Алаша хан — қазақтардың аңыздағы арғы атасы: аңыз бойынша ол көшпелі тайпаларды біріктіріп, «Алты Алаштың» атасы саналады. Кесененің уақыты даулы: дереккөздер X–XI, XI–XII және XIII ғасырларды атайды. Кесене Қаракеңгір өзенінің оң жағалауында, Малшыбай ауылынан шамамен 2 км жерде тұр.",
+        "ru": "Портально-купольный мавзолей из кирпича; главный фасад украшен терракотовыми плитками с геометрическим орнаментом. Алаша хан — легендарный прародитель казахов: по преданию, он объединил кочевые племена и считается предком «Алты Алаш». Датировка спорна: источники называют X–XI, XI–XII и XIII века. Мавзолей стоит на правом берегу реки Каракенгир, примерно в 2 км от села Малшыбай.",
+        "en": "A portal-domed brick mausoleum; its main façade is decorated with terracotta tiles bearing geometric ornament. Alasha Khan is the legendary forefather of the Kazakhs: tradition says he united the nomadic tribes and he is regarded as the ancestor of the \"Alty Alash\". Its dating is disputed: sources give the 10th–11th, 11th–12th and 13th centuries. The mausoleum stands on the right bank of the Karakengir River, about 2 km from the village of Malshybai."
+      },
+      "how_to_get": {
+        "kk": "Сәтбаев қаласынан шығысқа қарай шамамен 60 км. Жезқазғаннан түзу сызықпен ≈66 км. Жошы хан мен Домбауыл кесенелерімен бір күнде көруге болады (Домбауылдан түзу сызықпен ≈20 км).",
+        "ru": "≈60 км к востоку от города Сатпаев. От Жезказгана ≈66 км по прямой. Можно посетить в один день с мавзолеями Жошы хана и Домбауыл (от Домбауыла ≈20 км по прямой).",
+        "en": "About 60 km east of the town of Satpayev; ≈66 km from Zhezkazgan in a straight line. Can be combined in one day with the Jochi Khan and Dombauyl mausoleums (≈20 km in a straight line from Dombauyl)."
+      },
+      "tips": {
+        "kk": "Киелі орын: кесене ішінде дауыстап сөйлемеңіз, әйелдерге орамал тартып кіру ұсынылады. Жол ұзақ — Жезқазғанда жанармай құйып алыңыз.",
+        "ru": "Сакральное место: внутри мавзолея говорите тихо, женщинам рекомендуется покрыть голову. Дорога долгая — заправьтесь в Жезказгане.",
+        "en": "Sacred site: speak quietly inside; women are advised to cover their heads. It is a long drive — fill up the tank in Zhezkazgan."
+      },
+      "coordinates": {"lat": 48.3675, "lon": 67.8431},
+      "distance_from_zhezkazgan_km": 66,
+      "distance_text": {
+        "kk": "≈66 км түзу сызықпен (координаттар бойынша есептелген)",
+        "ru": "≈66 км по прямой (рассчитано по координатам)",
+        "en": "≈66 km in a straight line (calculated from coordinates)"
+      },
+      "sources": [
+        "https://wildticketasia.com/1309-alasha-khan-mausoleum.html",
+        "https://aroundus.com/p/11829486-alasha-khan-mausoleum",
+        "https://kazakhstan.travel/en/attractions/389",
+        "https://archaeology.kz/en/heritages/108-alasha-han-kesenesi",
+        "https://e-history.kz/en/map/view/93",
+        "https://tourstokazakhstan.com/en/sights/karaganda-region-ulytau-district/mausoleum-of-alash-khan.html",
+        "https://www.ancient-history-sites.com/sites/alasha-khan-mausoleum/"
+      ],
+      "verified": true,
+      "verification_note": "Координаты совпадают в двух источниках: wildticketasia (N48°22'03\" E67°50'35\") и aroundus (48.36747, 67.84300). Датировка в источниках расходится (X–XIII вв.) — в описании указаны все варианты. Совет про головной убор для женщин — общепринятая норма, не из источника."
+    },
+    {
+      "id": "aulietau",
+      "category": "nature",
+      "name": {
+        "kk": "Әулиетау (Ақмешіт)",
+        "ru": "Гора Аулиетау (Акмешит)",
+        "en": "Mount Auliye-tau (Akmeshit)"
+      },
+      "description": {
+        "kk": "Ұлытау тауларының ең биік нүктесі: дереккөздер бойынша 1131–1135 м. Аңыз бойынша оның беткейлерінде жеті сопы әулиенің ежелгі жерленген орындары бар. Шыңында «Әулие үңгір» (киелі үңгір) бар; жергілікті аңыз бойынша пайғамбар Зәрдүшт алғашқы аянды осында алған — бұл тарихи дерек емес, аңыз. Тау Ұлытау ауылының жанында орналасқан.",
+        "ru": "Высшая точка гор Улытау: по разным источникам 1131–1135 м. По преданию, на склонах горы находятся древние захоронения семи суфийских святых. На вершине есть пещера Әулие үңгір («святая пещера»); по местной легенде, здесь получил первое откровение пророк Заратуштра — это предание, а не исторический факт. Гора находится рядом с селом Ұлытау.",
+        "en": "The highest point of the Ulytau mountains: 1,131–1,135 m according to different sources. Tradition holds that seven Sufi saints are buried on its slopes. Near the summit is Auliye Ungir, the \"holy cave\"; a local legend says the prophet Zoroaster received his first revelation here — this is a legend, not a historical fact. The mountain is right next to Ulytau village."
+      },
+      "how_to_get": {
+        "kk": "Ұлытау ауылынан ≈5 км (түзу сызықпен). Жезқазғаннан Ұлытау ауылына дейін тас жолмен ≈130 км. Биіктік айырмасы шамамен 500 м; шыңға шығып-түсуге шамамен 3 сағат кетеді (туристік дереккөздер бойынша).",
+        "ru": "≈5 км от села Ұлытау (по прямой). От Жезказгана до села ≈130 км по трассе. Набор высоты около 500 м; подъём и спуск занимают около 3 часов (по данным туристических источников).",
+        "en": "About 5 km from Ulytau village (straight line). Zhezkazgan to the village is ≈130 km by highway. The climb gains about 500 m; up and down takes about 3 hours (according to tourism sources)."
+      },
+      "tips": {
+        "kk": "Таңертең шығыңыз, ыңғайлы аяқ киім, су және бас киім алыңыз. Киелі орындарда әдеп сақтаңыз. Алғаш барсаңыз, жергілікті гидпен жүрген дұрыс.",
+        "ru": "Начинайте подъём утром; нужны удобная обувь, вода и головной убор. На святых местах ведите себя уважительно. Если вы впервые в степи — лучше с местным гидом.",
+        "en": "Start the climb in the morning; bring good shoes, water and a hat. Be respectful at the holy sites. If it is your first time in the steppe, go with a local guide."
+      },
+      "coordinates": {"lat": 48.6439, "lon": 66.9461},
+      "distance_from_zhezkazgan_km": 135,
+      "distance_text": {
+        "kk": "≈130 км тас жолмен Ұлытау ауылына дейін + ≈5 км",
+        "ru": "≈130 км по трассе до села Ұлытау + ≈5 км",
+        "en": "≈130 km by highway to Ulytau village + ≈5 km"
+      },
+      "sources": [
+        "https://wildticketasia.com/854-aulie-mount-aulietau.html",
+        "https://en.wikipedia.org/wiki/Ulytau_(range)",
+        "https://kazakhstan.travel/en/where-to-go/region/19/ulytau-region",
+        "https://kazakhstan.travel/en/publications/161/ulytau-region",
+        "https://ulytaureserve.kz/en/311-route-akmechet-auliyetau.html",
+        "https://ulytaureserve.kz/en/12-tourist-routes.html"
+      ],
+      "verified": true,
+      "verification_note": "Координаты совпадают: wildticketasia (N48°38'38\" E66°56'47\") и Wikipedia — вершина Акмешит (48°38′39″N 66°56′46″E). Высота в источниках: 1131, 1133 и 1135 м. Пещера и «семь святых» — предания."
+    },
+    {
+      "id": "terekti_aulie",
+      "category": "history",
+      "name": {
+        "kk": "Теректі-Әулие петроглифтері",
+        "ru": "Петроглифы Теректы-Аулие",
+        "en": "Terekty-Aulie Petroglyphs"
+      },
+      "description": {
+        "kk": "Жартасқа салынған суреттер ескерткіші, онда қола дәуірінің (б.з.д. II мыңжылдық) жылқы бейнелері басым. archaeology.kz дерегі бойынша суреттер б.з.д. 800 жылдан б.з. 1300 жылына дейінгі кезеңде салынған. Жанында ежелгі қорым бар. Бұл жер киелі саналады.",
+        "ru": "Памятник наскального искусства, где преобладают изображения лошадей эпохи бронзы (II тысячелетие до н. э.). По данным archaeology.kz, рисунки создавались в период от 800 г. до н. э. до 1300 г. н. э. Рядом находится древний некрополь. Место почитается как сакральное.",
+        "en": "A rock-art site dominated by Bronze Age images of horses (2nd millennium BCE). According to archaeology.kz, the carvings span roughly 800 BCE to 1300 CE. There is an ancient necropolis nearby. The place is revered as sacred."
+      },
+      "how_to_get": {
+        "kk": "Жезқазғаннан шығысқа/солтүстік-шығысқа қарай шамамен 80–90 км, Теректі стансасынан солтүстік-батысқа қарай ≈20 км. Жолды білетін жергілікті гидпен барған дұрыс.",
+        "ru": "≈80–90 км к востоку/северо-востоку от Жезказгана и ≈20 км к северо-западу от станции Теректы. Лучше ехать с местным гидом, знающим дорогу.",
+        "en": "About 80–90 km east/north-east of Zhezkazgan and ≈20 km north-west of Terekty station. Best visited with a local guide who knows the way."
+      },
+      "tips": {
+        "kk": "Суреттерді қолмен ұстамаңыз, оларды бормен не бояумен сызбаңыз. Суреттер ерте таңда не кешке қиғаш жарықта жақсы көрінеді.",
+        "ru": "Не трогайте рисунки руками и не обводите их мелом или краской. Изображения лучше видны рано утром или вечером при косом свете.",
+        "en": "Do not touch the carvings or trace them with chalk or paint. They are easiest to see early in the morning or in the evening, in low-angle light."
+      },
+      "coordinates": {"lat": 48.2125, "lon": 68.6139},
+      "distance_from_zhezkazgan_km": 85,
+      "distance_text": {
+        "kk": "≈80–90 км (дереккөздер бойынша)",
+        "ru": "≈80–90 км (по данным источников)",
+        "en": "≈80–90 km (according to sources)"
+      },
+      "sources": [
+        "https://wildticketasia.com/859-terekty-aulie-karaganda-region-kazakhstan.html",
+        "https://pages.vassar.edu/central-asia-sites/?p=256",
+        "https://wildticketasia.com/1338-necropolis-terekty-aulie-monument.html",
+        "https://archaeology.kz/en/heritages/137-terekti-aulie-petroglifteri",
+        "https://e-history.kz/en/seo-materials/show/30486",
+        "https://bulletin-ecology.kaznu.kz/index.php/1-eco/en/article/view/196"
+      ],
+      "verified": true,
+      "verification_note": "Координаты по трём источникам расходятся не более чем на ~100 м (N48°12'45\" E68°36'50\"; 48°12'44\" 68°36'37\"; 48°12'39\" 68°36'45\"). Расстояние от Жезказгана в источниках 80–90 км. Совет о косом свете — общая рекомендация."
+    },
+    {
+      "id": "bolgan_ana",
+      "category": "sacred",
+      "name": {
+        "kk": "Болған ана кесенесі",
+        "ru": "Мавзолей Болган-ана",
+        "en": "Bolgan Ana Mausoleum"
+      },
+      "description": {
+        "kk": "Қаражар деген жерде, Қаракеңгір мен Сарысу өзендерінің қосылған жерінен шамамен 10 км жоғары тұрған күйдірілген кірпіштен салынған порталды-күмбезді кесене. Алтын Орда дәуірінен сақталған санаулы кесенелердің бірі. Мерзімі — XIV–XV ғасырлар (мемлекеттік тізілім: 1401–1500 жж.). Бір аңыз бойынша Болған — Жошы ханның қызы, екіншісі бойынша — Алаша ханның келіні. Археологтар мұнда ақсүйек әйелдің сүйегін, алтын кесе мен сырғаларды тапқан.",
+        "ru": "Портально-купольный мавзолей из обожжённого кирпича в урочище Каражар, примерно в 10 км выше слияния рек Каракенгир и Сарысу. Один из немногих сохранившихся мавзолеев эпохи Золотой Орды. Датировка — XIV–XV века (в госреестре — 1401–1500 гг.). По одной легенде, Болган — дочь Жошы хана, по другой — невестка Алаша хана. Археологи нашли здесь останки знатной женщины, золотую чашу и серьги.",
+        "en": "A portal-domed mausoleum of fired brick in the Karazhar area, about 10 km upstream of the confluence of the Karakengir and Sarysu rivers. It is one of the few surviving Golden Horde-era mausoleums. Dated to the 14th–15th centuries (state register: 1401–1500). One legend says Bolgan was a daughter of Jochi Khan, another that she was the daughter-in-law of Alasha Khan. Archaeologists found the remains of a noblewoman here, along with a golden cup and earrings."
+      },
+      "how_to_get": {
+        "kk": "Жезқазғаннан оңтүстікке қарай шамамен 50 км, Кеңгір өзенінің сол жағалауында («Ұлытау» қорық-мұражайының дерегі). Талап ауылынан ≈25 км.",
+        "ru": "≈50 км к югу от Жезказгана, на левом берегу реки Кенгир (данные музея-заповедника «Ұлытау»). От села Талап ≈25 км.",
+        "en": "About 50 km south of Zhezkazgan, on the left bank of the Kengir River (Ulytau Reserve-Museum data). About 25 km from the village of Talap."
+      },
+      "tips": {
+        "kk": "Киелі орын — әдепті сақтаңыз. Жолдың жай-күйін алдын ала жергілікті тұрғындардан сұраңыз.",
+        "ru": "Сакральное место — ведите себя уважительно. Состояние дороги заранее уточните у местных жителей.",
+        "en": "A sacred site — please be respectful. Check the road condition with locals in advance."
+      },
+      "coordinates": {"lat": 47.4667, "lon": 68.0083},
+      "distance_from_zhezkazgan_km": 50,
+      "distance_text": {
+        "kk": "≈50 км (қорық-мұражай дерегі)",
+        "ru": "≈50 км (данные музея-заповедника)",
+        "en": "≈50 km (Reserve-Museum data)"
+      },
+      "sources": [
+        "https://ulytaureserve.kz/en/9-historical-and-cultural-monuments-of-the-ulytau-reserve-museum.html",
+        "https://archaeology.kz/en/heritages/116-bolgan-ana-kesenesi",
+        "https://wildticketasia.com/1339-bolgan-ana-mausoleum.html",
+        "https://kazpravda.kz/n/bolgan-ana-legenda-i-simvol/",
+        "https://stud.kz/prezentatsiya/id/28500",
+        "https://ulytaureserve.kz/en/museum-news-eng/573-archaeological-research-in-the-bolgan-ana-mausoleum",
+        "https://en.wikipedia.org/wiki/Karakengir"
+      ],
+      "verified": false,
+      "verification_note": "Координаты только из одного источника (wildticketasia: 47°28'00\" N 68°00'30\" E), причём почти совпадают с координатами соседнего мазара Кулан-ана на том же сайте — возможно, приблизительные. Косвенно согласуются с описанием «10 км выше устья Каракенгира» (устье по Wikipedia: 47°22′42″N 67°59′29″E). Датировка расходится (XI–XII вв. на турсайте vs XIV–XV вв. в музее-заповеднике и реестре). Сведения об урочище Каражар и находках — из выдержек kazpravda/stud.kz; проверить."
+    },
+    {
+      "id": "ulytau_village",
+      "category": "history",
+      "name": {
+        "kk": "Ұлытау ауылы және «Ұлытау» қорық-мұражайы",
+        "ru": "Село Улытау и музей-заповедник «Ұлытау»",
+        "en": "Ulytau Village & Ulytau Reserve-Museum"
+      },
+      "description": {
+        "kk": "Ұлытау тауларының етегіндегі Ұлытау ауданының әкімшілік орталығы. Мұнда «Ұлытау» ұлттық тарихи-мәдени және табиғи қорық-мұражайы орналасқан. Ауыл бойынша 8 км экскурсиялық маршрут қазақ хандары алаңын қамтиды. Ұлытауда одақтар жасалып, хандар жарияланып, жорықтар басталған деп айтылады.",
+        "ru": "Административный центр Улытауского района у подножия гор Улытау. Здесь находится Национальный историко-культурный и природный заповедник-музей «Ұлытау». Экскурсионный маршрут по селу (8 км) включает площадь казахских ханов. По преданиям, на Улытау заключали союзы, провозглашали ханов и начинали военные походы.",
+        "en": "The administrative centre of Ulytau District at the foot of the Ulytau mountains. It is home to the Ulytau National Historical, Cultural and Natural Reserve-Museum. The 8 km village tour includes the Square of the Kazakh Khans. Tradition says that at Ulytau alliances were made, khans were proclaimed and military campaigns began."
+      },
+      "how_to_get": {
+        "kk": "Жезқазғаннан тас жолмен ≈130 км (қорық-мұражай дерегі), Жезқазғаннан солтүстік-солтүстік-батысқа қарай. Жанында — Бірлік монументі (≈10 км) және Әулиетау тауы (≈5 км).",
+        "ru": "≈130 км от Жезказгана по трассе (данные музея-заповедника), на север-северо-запад. Рядом — монумент Единства (≈10 км) и гора Аулиетау (≈5 км).",
+        "en": "About 130 km from Zhezkazgan by highway (Reserve-Museum data), to the north-north-west. Nearby: the Unity Monument (≈10 km) and Mount Auliye-tau (≈5 km)."
+      },
+      "tips": {
+        "kk": "Таулы аймақты асықпай көру үшін ауылда түнеп қалған дұрыс — орынды алдын ала брондаңыз. Қонақ үйлер мен көлік туралы ақпарат — vizit-ulytau.kz порталында.",
+        "ru": "Чтобы спокойно осмотреть горы, удобно остаться в селе на ночь — бронируйте жильё заранее. Информация о гостиницах и транспорте — на портале vizit-ulytau.kz.",
+        "en": "To explore the mountains without rushing, stay overnight in the village — book in advance. Hotel and transport info is on the vizit-ulytau.kz portal."
+      },
+      "coordinates": {"lat": 48.6547, "lon": 67.0078},
+      "distance_from_zhezkazgan_km": 130,
+      "distance_text": {
+        "kk": "≈130 км тас жолмен",
+        "ru": "≈130 км по трассе",
+        "en": "≈130 km by highway"
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ulytau_(village)",
+        "https://spelunker.whosonfirst.org/id/1326717465/geojson",
+        "https://ulytaureserve.kz/en/12-tourist-routes.html",
+        "https://e-history.kz/en/historical-education/show/12958",
+        "https://en.tengrinews.kz/tv/features/ulytau/127",
+        "https://kazpravda.kz/n/dobro-pozhalovat-v-ulytau/"
+      ],
+      "verified": true,
+      "verification_note": "Координаты: Wikipedia (48°39′17″N 67°00′28″E) и Who's On First (≈48.655, 67.006). Расстояние 130 км — из маршрутов музея-заповедника; другие сайты дают 120 и 150 км."
+    },
+    {
+      "id": "unity_monument",
+      "category": "history",
+      "name": {
+        "kk": "Қазақстан халқының бірлігі монументі",
+        "ru": "Монумент единства народа Казахстана",
+        "en": "Monument of Unity of the People of Kazakhstan"
+      },
+      "description": {
+        "kk": "Биіктігі шамамен 20 м төрт иілген тіректен тұратын стела, ұшында шпилі бар (жалпы биіктігі ≈22 м). Монумент 1992 жылы Ұлытау ауылы мен тауларының жанында Қазақстан халқының бірлігі құрметіне орнатылған. Ұлытау таулары Қазақстанның географиялық орталығы саналады — монумент орны сондықтан таңдалған.",
+        "ru": "Стела из четырёх изогнутых опор высотой около 20 м со шпилем (общая высота ≈22 м). Монумент установлен в 1992 году у села и гор Улытау в честь единства народа Казахстана. Горы Улытау принято считать географическим центром Казахстана — поэтому место выбрано для монумента.",
+        "en": "A stele of four curved supports about 20 m tall, topped by a spire (≈22 m in total). It was erected in 1992 near Ulytau village and mountains to honour the unity of the people of Kazakhstan. The Ulytau mountains are regarded as the geographic centre of Kazakhstan, which is why the site was chosen."
+      },
+      "how_to_get": {
+        "kk": "Жезды — Ұлытау тас жолында, Ұлытау ауылынан ≈10 км. Ұлытауға бара жатқанда жолай тоқтауға ыңғайлы.",
+        "ru": "На трассе Жезды — Улытау, ≈10 км от села Улытау. Удобно остановиться по пути в Улытау.",
+        "en": "On the Zhezdy–Ulytau highway, ≈10 km from Ulytau village. A convenient stop on the way to Ulytau."
+      },
+      "tips": {
+        "kk": "Монументтің маңынан тауларға әдемі көрініс ашылады — суретке түсу үшін аялдаңыз. Далада жел қатты болуы мүмкін.",
+        "ru": "От монумента открывается хороший вид на горы — остановитесь для фото. В степи бывает сильный ветер.",
+        "en": "The monument offers a good view of the mountains — stop for photos. It can be very windy in the steppe."
+      },
+      "coordinates": {"lat": 48.5822, "lon": 67.0894},
+      "distance_from_zhezkazgan_km": 120,
+      "distance_text": {
+        "kk": "≈120 км тас жолмен (Ұлытауға дейінгі 130 км жолда, ауылға 10 км қалғанда)",
+        "ru": "≈120 км по трассе (на пути в Улытау, за 10 км до села)",
+        "en": "≈120 km by highway (on the way to Ulytau, 10 km before the village)"
+      },
+      "sources": [
+        "https://wildticketasia.com/1315-monument-of-unity-and-cohesion-of-the-people-of-kazakhstan.html",
+        "https://kazakhstan.travel/en/publications/161/ulytau-region",
+        "https://kazakhstan.travel/en/where-to-go/region/19/ulytau-region",
+        "https://www.guide.kz/en/road01_11.shtml"
+      ],
+      "verified": false,
+      "verification_note": "Координаты (N48°34'56\" E67°05'22\") и высота (20/22 м) — только из одного источника (wildticketasia). Координаты внутренне согласуются с «≈10 км от села Улытау» (расчёт: 10,0 км). Год 1992 — по двум страницам kazakhstan.travel. «Географический центр» — общепринятое мнение, а не геодезическая точка."
+    },
+    {
+      "id": "edige_tau",
+      "category": "nature",
+      "name": {
+        "kk": "Едіге тауы",
+        "ru": "Гора Едиге",
+        "en": "Mount Edige"
+      },
+      "description": {
+        "kk": "Ұлытау тауларындағы шың (туроператор дерегі бойынша биіктігі 1063 м). Аңыз бойынша шыңда Алтын Орда әмірі Едіге би жерленген, ал жақын маңда Тоқтамыс ханның бейіті бар дейді. Аңызға сәйкес, Едіге ұрпақтары араздаспасын деп, өзін бұрынғы жауының жанына жерлеуді өтінген. Бұл — тарихи дерек емес, аңыздар.",
+        "ru": "Вершина в горах Улытау (по данным туроператора, высота 1063 м). По преданию, на вершине похоронен эмир Золотой Орды Едиге би, а по другой легенде, неподалёку находится могила хана Тохтамыша. Рассказывают, что Едиге просил похоронить его рядом с бывшим врагом, чтобы их потомки не враждовали. Это легенды, а не установленные факты.",
+        "en": "A peak in the Ulytau mountains (1,063 m according to a tour operator). Tradition says the Golden Horde emir Edige bi is buried on the summit, and another legend places Khan Tokhtamysh's grave nearby. The story goes that Edige asked to be buried beside his former enemy so that their descendants would not feud. These are legends, not established facts."
+      },
+      "how_to_get": {
+        "kk": "Ұлытау ауылынан батысқа қарай: қорық-мұражай дерегі бойынша 35 км, туроператор дерегі бойынша 17 км (дереккөздер сәйкес келмейді — гидтен нақтылаңыз).",
+        "ru": "К западу от села Улытау: по данным музея-заповедника — 35 км, по данным туроператора — 17 км (источники расходятся — уточняйте у гида).",
+        "en": "West of Ulytau village: 35 km according to the Reserve-Museum, 17 km according to a tour operator (sources disagree — check with a guide)."
+      },
+      "tips": {
+        "kk": "Жолды білетін гидпен барыңыз. Тауда ауа райы тез өзгереді — жылы киім алыңыз.",
+        "ru": "Поезжайте с гидом, знающим дорогу. В горах погода быстро меняется — возьмите тёплую одежду.",
+        "en": "Go with a guide who knows the way. Mountain weather changes quickly — bring warm layers."
+      },
+      "coordinates": {"lat": 48.5769, "lon": 66.8163},
+      "distance_from_zhezkazgan_km": 110,
+      "distance_text": {
+        "kk": "≈110 км түзу сызықпен (координаттар бойынша есептелген)",
+        "ru": "≈110 км по прямой (рассчитано по координатам)",
+        "en": "≈110 km in a straight line (calculated from coordinates)"
+      },
+      "sources": [
+        "https://wildticketasia.com/853-mount-edyge-karaganda-region-kazakhstan.html",
+        "https://ulytaureserve.kz/en/9-historical-and-cultural-monuments-of-the-ulytau-reserve-museum.html",
+        "https://www.gov.kz/memleket/entities/qazalem/activities/27973?lang=en",
+        "https://www.pressreader.com/kazakhstan/tengri/20160501/281552290098975"
+      ],
+      "verified": false,
+      "verification_note": "Координаты (N48°34'36.95\" E66°48'58.56\") и высота 1063 м — только из одного источника (wildticketasia). Расстояние от села Улытау: 35 км (музей-заповедник, gov.kz) vs 17 км (wildticketasia); расчёт по координатам даёт ≈16,5 км по прямой. Проверить по топокарте."
+    },
+    {
+      "id": "ayakkamyr",
+      "category": "history",
+      "name": {
+        "kk": "Аяққамыр қалашығы мен кесенесі",
+        "ru": "Городище и мавзолей Аяккамыр",
+        "en": "Ayakkamyr Settlement and Mausoleum"
+      },
+      "description": {
+        "kk": "Жезді өзенінің сол жағалауындағы ортағасырлық қалашық, шамамен IX–XI ғасырларға жатады, және оның жанындағы (≈300–350 м) кесене. Мемлекеттік тізілім кесенені 1001–1200 жылдарға жатқызып, оны маңайдағы ең көне кесене деп атайды. Жақын жерде Алтын Орда кезеңінің тағы бір кесенесі бар.",
+        "ru": "Средневековое городище на левом берегу реки Жезды, датируемое примерно IX–XI веками, и мавзолей рядом с ним (≈300–350 м). Госреестр относит мавзолей к 1001–1200 годам и называет его древнейшим в округе. Неподалёку есть ещё один мавзолей золотоордынского периода.",
+        "en": "A medieval settlement on the left bank of the Zhezdy River, dated to roughly the 9th–11th centuries, with a mausoleum about 300–350 m away. The state register dates the mausoleum to 1001–1200 and calls it the oldest in the area. Another Golden Horde-period mausoleum stands nearby."
+      },
+      "how_to_get": {
+        "kk": "Жезді ауылынан солтүстік-батысқа қарай ≈7–9 км. Жезқазғаннан түзу сызықпен ≈64 км. Ұлытауға бара жатқанда жолай соғуға болады.",
+        "ru": "≈7–9 км к северо-западу от села Жезды. От Жезказгана ≈64 км по прямой. Можно заехать по пути в Улытау.",
+        "en": "About 7–9 km north-west of Zhezdy village; ≈64 km from Zhezkazgan in a straight line. Can be visited on the way to Ulytau."
+      },
+      "tips": {
+        "kk": "Қалашық — археологиялық ескерткіш: топырақты қазбаңыз, заттарды алмаңыз. Ыңғайлы жабық аяқ киім киіңіз.",
+        "ru": "Городище — археологический памятник: ничего не копайте и не забирайте с собой. Наденьте закрытую удобную обувь.",
+        "en": "The settlement is an archaeological monument: do not dig or take anything. Wear closed, comfortable shoes."
+      },
+      "coordinates": {"lat": 48.1147, "lon": 66.9939},
+      "distance_from_zhezkazgan_km": 64,
+      "distance_text": {
+        "kk": "≈64 км түзу сызықпен (координаттар бойынша есептелген)",
+        "ru": "≈64 км по прямой (рассчитано по координатам)",
+        "en": "≈64 km in a straight line (calculated from coordinates)"
+      },
+      "sources": [
+        "https://wildticketasia.com/1333-ayakkamyr-settlement-ancient-city.html",
+        "https://archaeology.kz/en/heritages/110-ayaqqamyr-kesenesi",
+        "https://kazpravda.kz/n/dva-ayakkamyra/"
+      ],
+      "verified": false,
+      "verification_note": "Координаты (N48°06'53\" E66°59'38\") — только из одного источника (wildticketasia). Расстояние от села Жезды: 7 км (городище, wildticketasia) и 9 км (мавзолей, archaeology.kz)."
+    },
+    {
+      "id": "karsakpay",
+      "category": "history",
+      "name": {
+        "kk": "Қарсақбай кенті және Қ. Сәтбаевтың үй-мұражайы",
+        "ru": "Посёлок Карсакпай и дом-музей К. Сатпаева",
+        "en": "Karsakpay & Kanysh Satpayev House-Museum"
+      },
+      "description": {
+        "kk": "Шамамен 1911–1912 жылдары мыс балқыту зауытының жұмысшы қалашығы ретінде құрылған кент. Қарсақбай мыс балқыту зауыты алғашқы мысты 1928 жылдың қазанында берді және Қазақстанның түсті металлургиясының тұңғышы саналады. Геолог Қаныш Сәтбаев еңбек жолын осында бастаған; оның отбасы Қарсақбайда 1928 жылдан 1941 жылдың маусымына дейін тұрған. Кентте академик Сәтбаевтың үй-мұражайы жұмыс істейді.",
+        "ru": "Посёлок, основанный около 1911–1912 годов как рабочий городок при медеплавильном заводе. Карсакпайский медеплавильный завод дал первую медь в октябре 1928 года и считается первенцем цветной металлургии Казахстана. Здесь начинал свой путь геолог Каныш Сатпаев; его семья жила в Карсакпае с 1928 по июнь 1941 года. В посёлке работает дом-музей академика Сатпаева.",
+        "en": "A settlement founded around 1911–1912 as a workers' town for a copper smelter. The Karsakpay copper smelter produced its first copper in October 1928 and is considered the pioneer of Kazakhstan's non-ferrous metallurgy. Geologist Kanysh Satpayev began his career here; his family lived in Karsakpay from 1928 to June 1941. The village has a house-museum of Academician Satpayev."
+      },
+      "how_to_get": {
+        "kk": "Жезқазғаннан батысқа қарай түзу сызықпен ≈71 км (координаттар бойынша есептелген). Жол бойынша қашықтықты навигатордан тексеріңіз.",
+        "ru": "≈71 км к западу от Жезказгана по прямой (рассчитано по координатам). Дорожное расстояние уточняйте по навигатору.",
+        "en": "About 71 km west of Zhezkazgan in a straight line (calculated from coordinates). Check the road distance in a navigation app."
+      },
+      "tips": {
+        "kk": "Мұражайдың жұмыс уақытын алдын ала телефон арқылы нақтылаңыз. Жезқазған мұражайымен бірге жоспарлаңыз — екеуі бірге мыс өлкесінің тарихын баяндайды.",
+        "ru": "Часы работы музея уточните заранее по телефону. Удобно сочетать с Жезказганским музеем — вместе они рассказывают историю медного края.",
+        "en": "Check the museum's opening hours by phone in advance. It pairs well with the Zhezkazgan museum — together they tell the story of the copper region."
+      },
+      "coordinates": {"lat": 47.8333, "lon": 66.75},
+      "distance_from_zhezkazgan_km": 71,
+      "distance_text": {
+        "kk": "≈71 км түзу сызықпен (координаттар бойынша есептелген)",
+        "ru": "≈71 км по прямой (рассчитано по координатам)",
+        "en": "≈71 km in a straight line (calculated from coordinates)"
+      },
+      "sources": [
+        "https://en.wikipedia.org/wiki/Karsakpay",
+        "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/2162106/htmlPopup?f=html",
+        "https://aroundus.com/p/8376556-karsakpay",
+        "https://www.kazakhmys.kz/en/news/90-years-since-copper-in-karsakpay-was-first-mined",
+        "https://bizmedia.kz/2026-10-19-karsakpajskij-medeplavilnyj-zavod-98-let-istorii-truda-i-tradiczij",
+        "https://e-history.kz/en/news/show/7191",
+        "https://e-history.kz/en/calendar/show/27729",
+        "https://24.kz/ru/news/culture/647609-kak-vyglyadit-dom-muzej-kanysha-satpaeva"
+      ],
+      "verified": true,
+      "verification_note": "Координаты: Wikipedia (47°50′N 66°45′E) и NGA GeoNames (47°50′12″N 66°43′35″E), расхождение ≈1,8 км — для посёлка допустимо. Год прибытия Сатпаева в источниках: 1927 (aroundus) и 1928 (e-history, семья). Дорожное расстояние не найдено."
+    },
+    {
+      "id": "zhezkazgan_museum",
+      "category": "city",
+      "name": {
+        "kk": "Жезқазған тарихи-археологиялық музейі",
+        "ru": "Жезказганский историко-археологический музей",
+        "en": "Zhezkazgan Historical and Archaeological Museum"
+      },
+      "description": {
+        "kk": "Музей 1978 жылы 10 мамырда облыстық тарихи-өлкетану музейі ретінде ашылып, 1997 жылы қазіргі атауын алды. Қайта жаңартудан кейін экспозиция өңір тарихын «динозаврлардан бүгінге дейін» баяндайды, залдарда жасанды интеллект қолданылған интерактивті жобалар бар. Қорында археологиялық және этнографиялық коллекциялар сақталған, мысалы, XIX ғасырдың соңына жататын ескі сандықтар.",
+        "ru": "Музей открыт 10 мая 1978 года как областной историко-краеведческий, в 1997 году получил нынешнее название. После реконструкции экспозиция рассказывает историю региона «от динозавров до наших дней», в залах есть интерактивные проекты с использованием искусственного интеллекта. В фондах — археологические и этнографические коллекции, например старинные сундуки конца XIX века.",
+        "en": "The museum opened on 10 May 1978 as a regional local-history museum and received its current name in 1997. After reconstruction, its exhibition tells the region's story \"from dinosaurs to the present day\", with interactive AI-based projects in the halls. Its collections include archaeological and ethnographic items, such as antique chests from the late 19th century."
+      },
+      "how_to_get": {
+        "kk": "Жезқазған қаласы, Алашахан көшесі, 22 (бұрынғы Некрасов көшесі), тел. +7 (7102) 73-77-53 (туристік анықтамалық дерегі — барар алдында нақтылаңыз).",
+        "ru": "Жезказган, ул. Алашахана, 22 (бывш. Некрасова), тел. +7 (7102) 73-77-53 (по данным туристического справочника — уточните перед визитом).",
+        "en": "Zhezkazgan, 22 Alashakhan Street (formerly Nekrasov Street), tel. +7 (7102) 73-77-53 (from a tourist directory — please confirm before visiting)."
+      },
+      "tips": {
+        "kk": "Далаға шықпас бұрын осында келіңіз: Ұлытау ескерткіштерін түсіну оңайырақ болады. Жұмыс уақытын телефон арқылы нақтылаңыз.",
+        "ru": "Зайдите сюда до поездок в степь — так будет проще понять памятники Улытау. Часы работы уточните по телефону.",
+        "en": "Visit before heading into the steppe — it makes the Ulytau monuments easier to understand. Check opening hours by phone."
+      },
+      "coordinates": {"lat": 47.7833, "lon": 67.7},
+      "distance_from_zhezkazgan_km": 0,
+      "distance_text": {
+        "kk": "Жезқазған қаласының ішінде",
+        "ru": "В черте Жезказгана",
+        "en": "Inside Zhezkazgan"
+      },
+      "sources": [
+        "https://wildticketasia.com/1192-jezkazgan-historical-and-archaeological-museum.html",
+        "https://artessere.com/zhezkazgan-zhezkazgan-historical-and-archaeological-museum",
+        "https://weproject.media/articles/detail/kuda-shodit-esli-vi-vpervie-v-zhezkazgane/",
+        "https://kazpravda.kz/n/preobrazhenie/",
+        "https://24.kz/ru/news/social/699706-vystavku-starinnykh-sundukov-podgotovili-v-zhezkazganskom-muzee",
+        "https://en.wikipedia.org/wiki/Jezkazgan"
+      ],
+      "verified": false,
+      "verification_note": "Координаты музея не найдены — указан центр города (Wikipedia: 47°47′N 67°42′E). Точку на карте нужно поставить по адресу ул. Алашахана, 22. Адрес и телефон — из одного источника (wildticketasia). Часы работы не найдены."
+    },
+    {
+      "id": "kengir_reservoir",
+      "category": "nature",
+      "name": {
+        "kk": "Кеңгір су қоймасы",
+        "ru": "Кенгирское водохранилище",
+        "en": "Kengir Reservoir"
+      },
+      "description": {
+        "kk": "Ұлытау облысындағы ең ірі су қоймасы, Қаракеңгір өзенінде академик Қаныш Сәтбаевтың бастамасымен 1952 жылы салынған. Ұзындығы шамамен 33 км, ені 1,6 км-ге дейін, ауданы шамамен 37 км², көлемі 319 млн м³. Жезқазғанды ауыз сумен және техникалық сумен қамтамасыз ететін негізгі көз. Жақында су қоймасы мен бөгет мемлекет меншігіне қайтарылды.",
+        "ru": "Крупнейшее водохранилище области Ұлытау на реке Каракенгир, построенное в 1952 году по инициативе академика Каныша Сатпаева. Длина около 33 км, ширина до 1,6 км, площадь около 37 км², объём 319 млн м³. Это главный источник питьевой и технической воды Жезказгана. Недавно водохранилище и плотина возвращены в государственную собственность.",
+        "en": "The largest reservoir in Ulytau Region, on the Karakengir River, built in 1952 on the initiative of Academician Kanysh Satpayev. It is about 33 km long, up to 1.6 km wide, covers about 37 km² and holds 319 million m³. It is Zhezkazgan's main source of drinking and industrial water. The reservoir and dam were recently returned to state ownership."
+      },
+      "how_to_get": {
+        "kk": "Жезқазған қаласының дәл жанында — қала су қоймасының жағасында орналасқан.",
+        "ru": "Прямо у Жезказгана — город стоит на берегу водохранилища.",
+        "en": "Right next to Zhezkazgan — the city lies on the reservoir's shore."
+      },
+      "tips": {
+        "kk": "Бұл — қаланың ауыз су көзі: қоқыс тастамаңыз. Жергілікті тұрғындардың айтуынша, шомылу маусымы мамырдан тамызға дейін; шомылу ережелерін жергілікті биліктен нақтылаңыз. Күн батарда серуендеуге жақсы.",
+        "ru": "Это источник питьевой воды для города — не оставляйте мусор. По словам местных, купальный сезон — с мая по август; правила купания уточняйте у местных властей. Хорошее место для прогулки на закате.",
+        "en": "This is the city's drinking-water source — leave no litter. Locals say the swimming season runs from May to August; check local swimming rules. A nice spot for a sunset walk."
+      },
+      "coordinates": {"lat": 47.7956, "lon": 67.7328},
+      "distance_from_zhezkazgan_km": 3,
+      "distance_text": {
+        "kk": "Қаланың жанында (≈3 км)",
+        "ru": "Рядом с городом (≈3 км)",
+        "en": "Next to the city (≈3 km)"
+      },
+      "sources": [
+        "https://informburo.kz/stati/69-let-zezkazganu-prosloe-i-nastoyashhee-odnoi-iz-bogateisix-mednyx-provincii-mira",
+        "https://bizmedia.kz/2024-04-10-kengirskoe-vodohranilishhe-vozle-zhezkazgana-vernut-kazahstanu",
+        "https://tengrinews.kz/kazakhstan_news/kengirskoe-vodohranilische-vernut-v-sobstvennost-gosudarstva-549251/",
+        "https://kazpravda.kz/n/kengirskoe-vodohranilishche-vozvrashchaetsya-v-gossobstvennost/",
+        "https://24.kz/ru/news/ekologiya/708944-taza-kazakstan-v-zhezkazgane-proshla-aktsiya-chistye-vodojomy",
+        "https://aroundus.com/p/8376570-qenggir-bogeni",
+        "https://en.wikipedia.org/wiki/Karakengir"
+      ],
+      "verified": false,
+      "verification_note": "Координаты (47.79556, 67.73278) — только из одного источника (aroundus); водохранилище длинное (≈33 км), это лишь точка у города. Год 1952 подтверждают несколько источников; одна версия: строительство начато в 1940, прервано войной, возобновлено в 1946. Размеры (33 км, 1,6 км, 37 км²) — из одного источника в выдаче."
+    },
+    {
+      "id": "ulytau_national_park",
+      "category": "nature",
+      "name": {
+        "kk": "«Ұлытау» мемлекеттік ұлттық табиғи паркі",
+        "ru": "Национальный природный парк «Ұлытау»",
+        "en": "Ulytau National Nature Park"
+      },
+      "description": {
+        "kk": "Үкіметтің 2021 жылғы 7 желтоқсандағы № 867 қаулысымен құрылды (2022 жылғы 1 қаңтардан күшіне енді) — елдегі 14-ші ұлттық парк. Ауданы шамамен 58,9 мың га, оның ішінде аттас қорықшаның аумағы 19,3 мың га. Парк Ұлытау ауданындағы Ұлытау тауларын қамтиды. Ол «Ұлытау» орман және жануарлар дүниесін қорғау шаруашылығын қайта ұйымдастыру арқылы құрылған.",
+        "ru": "Создан постановлением правительства № 867 от 7 декабря 2021 года (вступило в силу 1 января 2022 года) — 14-й национальный парк страны. Площадь около 58,9 тыс. га, включая одноимённый заказник площадью 19,3 тыс. га. Парк охватывает горы Улытау в Улытауском районе. Создан путём реорганизации Улытауского хозяйства по охране лесов и животного мира.",
+        "en": "Established by Government Decree No. 867 of 7 December 2021 (in force from 1 January 2022) as the country's 14th national park. It covers about 58,900 ha, including a reserve of the same name of 19,300 ha. The park covers the Ulytau mountains in Ulytau District. It was created by reorganising the Ulytau forest and wildlife protection agency."
+      },
+      "how_to_get": {
+        "kk": "Парк Ұлытау ауылы маңындағы тауларда, Жезқазғаннан тас жолмен ≈130 км. Баратын жолды және кіру тәртібін парк әкімшілігінен алдын ала нақтылаңыз.",
+        "ru": "Парк — в горах у села Ұлытау, ≈130 км от Жезказгана по трассе. Маршрут и правила посещения заранее уточните у администрации парка.",
+        "en": "The park is in the mountains around Ulytau village, ≈130 km from Zhezkazgan by highway. Check routes and visiting rules with the park administration in advance."
+      },
+      "tips": {
+        "kk": "Ең қолайлы уақыт — көктем мен күз; мамыр мен қыркүйекте ауа температурасы шамамен +5…+20°C. Жайылымдар мен малшылардың жерін құрметтеңіз. Алғаш барсаңыз, жергілікті гид жалдаңыз.",
+        "ru": "Лучшее время — весна и осень; в мае и сентябре температура примерно +5…+20 °C. Уважайте пастбища и территории пастухов. Если вы впервые в степи — наймите местного гида.",
+        "en": "Best time: spring and autumn; in May and September temperatures are roughly +5…+20 °C. Respect pastures and herders' land. If it is your first time in the steppe, hire a local guide."
+      },
+      "coordinates": {"lat": 48.636, "lon": 66.903},
+      "distance_from_zhezkazgan_km": 130,
+      "distance_text": {
+        "kk": "≈130 км тас жолмен (Ұлытау ауылы маңы)",
+        "ru": "≈130 км по трассе (район села Ұлытау)",
+        "en": "≈130 km by highway (Ulytau village area)"
+      },
+      "sources": [
+        "https://astanatimes.com/2021/12/kazakhstan-creates-new-national-park-in-karaganda-region-to-step-up-ecosystem-conservation-efforts/",
+        "https://www.inform.kz/en/kazakhstan-establishes-new-national-park_a3871875",
+        "https://www.gov.kz/memleket/entities/karaganda-tabigat/press/news/details/303880?lang=ru",
+        "https://www.undp.org/kazakhstan/stories/women-ulytau-are-shaping-future-their-region",
+        "https://www.internationalparks.org/kazakhstan/Ulytau",
+        "https://www.traveldojo.com/ulytau-national-park"
+      ],
+      "verified": false,
+      "verification_note": "Координаты (48.636, 66.903) — условная точка парка из одного источника (internationalparks.org; там же ошибочно указан год создания 2023). Площадь: 58 900 га (Astana Times), 58 912 га (UNDP). Температуры и советы по сезону — из туристического справочника traveldojo."
+    }
+  ]
+}
