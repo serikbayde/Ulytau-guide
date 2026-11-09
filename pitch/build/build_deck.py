@@ -74,8 +74,11 @@ def label(slide, txt, dark):
 def title(slide, txt, dark, y=0.98, size=44, w=11.8):
     text(slide, M, y, w, 1.2, txt, size=size, font=H, bold=True, color=WHITE if dark else NAVY, line=1.0)
 
+TOTAL = 14
+def idx(): return len(prs.slides._sldIdLst)
 def num(slide, n, dark):
-    text(slide, SW - M - 1.0, SH - 0.5, 1.0, 0.3, f"{n:02d} / 12", size=10, font=H,
+    n = idx()
+    text(slide, SW - M - 1.0, SH - 0.5, 1.0, 0.3, f"{n:02d} / {TOTAL}", size=10, font=H,
          color=MUTED_D if dark else MUTED_L, align=PP_ALIGN.RIGHT)
 
 def icon(name, color): return A / "icons" / f"{name}_{color}.png"
@@ -85,7 +88,7 @@ def icon_badge(slide, x, y, d, name, fill, color):
     pad = d * 0.24; pic(slide, icon(name, color), x + pad, y + pad, w=d - 2 * pad)
 
 def notes(slide, n):
-    slide.notes_slide.notes_text_frame.text = NOTES[str(n)]
+    slide.notes_slide.notes_text_frame.text = NOTES[str(idx())]
 
 def gradient_rect(slide, x, y, w, h, color, a1, a2, angle=90):
     """Прозрачный градиент (для читаемости поверх фото)."""
@@ -155,12 +158,16 @@ num(s, 3, False); notes(s, 3)
 s = prs.slides.add_slide(BLANK); bg(s, NAVY)
 pic(s, A / "ornament_ochre.png", SW - 2.3, 0.0, w=2.3).rotation = 90
 label(s, "ШЕШІМ", True)
-text(s, M, 1.55, 7.3, 2.4, [[("Ұлытау гид — ", {"color": OCHRE})], [("Telegram ішіндегі", {})], [("қалта гиді", {})]],
+text(s, M, 1.3, 7.3, 2.4, [[("Ұлытау гид — ", {"color": OCHRE})], [("Telegram ішіндегі", {})], [("қалта гиді", {})]],
      size=50, font=H, bold=True, color=WHITE, line=1.02)
-text(s, M, 4.25, 6.6, 1.4, "Орындар, маршруттар және AI-гид. Үш тілде. Қосымша орнатпай-ақ.",
+text(s, M, 4.05, 6.9, 1.3, "Орындар, маршруттар және AI-гид. Үш тілде. Қосымша орнатпай-ақ.",
      size=24, color=MUTED_D, line=1.2)
-for i, ic in enumerate(["send", "smartphone", "sparkles"]):
-    icon_badge(s, M + i * 0.95, 5.85, 0.75, ic, NAVY2, "ochre")
+text(s, M, 5.45, 6, 0.35, [[("КІМГЕ", {"track": 300})]], size=14, font=H, bold=True, color=OCHRE)
+for i, (ic, t) in enumerate([("users", "Ішкі туристер"), ("footprints", "Зияратшылар"), ("plane", "Шетелдік қонақтар")]):
+    x = M + i * 2.55
+    box(s, x, 5.9, 2.4, 0.72, NAVY2, radius=0.5)
+    pic(s, icon(ic, "ochre"), x + 0.18, 6.04, w=0.44)
+    text(s, x + 0.72, 5.9, 1.65, 0.72, t, size=15, font=H, bold=True, color=WHITE, anchor=MSO_ANCHOR.MIDDLE, line=0.95)
 pic(s, A / "mockups/menu.png", 8.55, 0.42, h=6.66)
 num(s, 4, True); notes(s, 4)
 
@@ -224,6 +231,22 @@ for i, c in enumerate(["65 автотест", "temperature 0.2", "сервер �
     box(s, M + i * 2.45, 2.25, 2.25, 0.42, None, line=OCHRE, radius=0.5)
     text(s, M + i * 2.45, 2.25, 2.25, 0.42, c, size=14, font=H, bold=True, color="9A6B12", align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
 num(s, 7, False); notes(s, 7)
+
+# ───────────────────────── Дәлел (traction) ─────────────────────────
+s = prs.slides.add_slide(BLANK); bg(s, NAVY)
+label(s, "ДӘЛЕЛ", True); title(s, "MVP дайын және жұмыс істеп тұр", True)
+facts = [("14", "орын, әрқайсысы\nдереккөзімен"), ("3", "дайын\nмаршрут"), ("3", "тіл: қазақша,\nорысша, ағылшынша"), ("65", "автотест\nөтті")]
+cw = (SW - 2 * M) / 4
+for i, (n, d) in enumerate(facts):
+    x = M + i * cw
+    text(s, x, 2.3, cw - 0.2, 1.2, n, size=72, font=H, bold=True, color=OCHRE)
+    box(s, x, 3.55, 0.7, 0.05, SKY, shape=MSO_SHAPE.RECTANGLE)
+    text(s, x, 3.75, cw - 0.3, 0.9, d, size=20, color=WHITE, line=1.1)
+for i, ph in enumerate(["[ҚОЛДАНУШЫЛАР: ботты ... адам байқап көрді]", "[ПІКІР: «...» — турист / гид]"]):
+    x = M + i * 5.98
+    box(s, x, 5.2, 5.85, 1.05, NAVY2, line=OCHRE, radius=0.15)
+    text(s, x + 0.3, 5.2, 5.3, 1.05, ph, size=18, bold=True, color=OCHRE, anchor=MSO_ANCHOR.MIDDLE)
+num(s, 0, True); notes(s, 0)
 
 # ───────────────────────── 8. Нарық ─────────────────────────
 s = prs.slides.add_slide(BLANK); bg(s, NAVY)
@@ -297,7 +320,7 @@ steps = [("ҚАЗІР", "MVP дайын", "14 орын, 3 маршрут, AI-г�
          ("ҚЫС", "Жаңа орындар", "14 орыннан → 50+ орынға", "map-pin", False),
          ("КӨКТЕМ", "Брондау", "Гид, қонақ үй, көлік — ботта", "calendar-check", False),
          ("ЖАЗ", "Офлайн режим", "Интернетсіз карта мен мәтін", "wifi-off", False)]
-cw = (SW - 2 * M) / 4; ly = 2.75
+cw = (SW - 2 * M) / 4; ly = 2.35
 box(s, M + 0.45, ly + 0.43, SW - 2 * M - cw + 0.1, 0.06, OCHRE, shape=MSO_SHAPE.RECTANGLE)
 for i, (when, t, d, ic, done) in enumerate(steps):
     x = M + i * cw
@@ -305,7 +328,28 @@ for i, (when, t, d, ic, done) in enumerate(steps):
     text(s, x, ly + 1.25, cw - 0.3, 0.4, [[(when, {"track": 200})]], size=14, font=H, bold=True, color="9A6B12")
     text(s, x, ly + 1.65, cw - 0.25, 0.9, t, size=22, font=H, bold=True, line=1.0)
     text(s, x, ly + 2.55, cw - 0.35, 1.0, d, size=20, color=MUTED_L, line=1.1)
+box(s, M, 6.0, SW - 2 * M, 0.8, NAVY, radius=0.3)
+pic(s, icon("layers", "ochre"), M + 0.3, 6.13, w=0.54)
+text(s, M + 1.05, 6.0, 10.6, 0.8, [[("Масштаб: ", {"bold": True, "color": OCHRE}),
+     ("жаңа өңір — жаңа деректер файлы ғана. Код сол күйі қалады.", {"color": WHITE})]], size=20, anchor=MSO_ANCHOR.MIDDLE)
 num(s, 11, False); notes(s, 11)
+
+# ───────────────────────── Команда ─────────────────────────
+s = prs.slides.add_slide(BLANK); bg(s, NAVY)
+label(s, "КОМАНДА", True); title(s, "Біз кімбіз", True)
+team = [("code", "[Аты-жөні 1]", "[Рөлі: бағдарламашы — бот, AI-гид]", "[Құзыреті: Python, ...; жетістіктері]"),
+        ("presentation", "[Аты-жөні 2]", "[Рөлі: деректер, дизайн, питч]", "[Құзыреті: ...; жетістіктері]")]
+cw = (SW - 2 * M - 0.4) / 2
+for i, (ic, n, r, c) in enumerate(team):
+    x = M + i * (cw + 0.4)
+    box(s, x, 2.3, cw, 3.4, NAVY2, radius=0.08)
+    box(s, x + 0.45, 2.75, 1.6, 1.6, "2E3D57", line=OCHRE, shape=MSO_SHAPE.OVAL, lw=2)
+    text(s, x + 0.45, 2.75, 1.6, 1.6, "[ФОТО]", size=14, font=H, bold=True, color=MUTED_D, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    text(s, x + 2.35, 2.8, cw - 2.6, 0.6, n, size=26, font=H, bold=True, color=WHITE)
+    text(s, x + 2.35, 3.45, cw - 2.6, 0.9, r, size=20, color=OCHRE, line=1.05)
+    text(s, x + 0.45, 4.65, cw - 0.8, 0.9, c, size=18, color=MUTED_D, line=1.1)
+text(s, M, 6.05, 11.8, 0.5, "[Ментор / кеңесші, бар болса]  ·  [Мектеп / оқу орны]", size=18, color=MUTED_D)
+num(s, 0, True); notes(s, 0)
 
 # ───────────────────────── 12. Рахмет ─────────────────────────
 s = prs.slides.add_slide(BLANK); bg(s, NAVY)
@@ -320,7 +364,7 @@ for i, (ic, t, d) in enumerate(asks):
     icon_badge(s, M, y, 0.7, ic, OCHRE, "navy")
     text(s, M + 0.95, y, 6.5, 0.7, [[(t + "  ", {"bold": True, "font": H, "color": WHITE}), (d, {"color": "DDE3EC"})]],
          size=22, anchor=MSO_ANCHOR.MIDDLE)
-text(s, M, 5.4, 8.3, 0.8, ["[КОМАНДА АТАУЫ]  ·  [Аты-жөні 1]  ·  [Аты-жөні 2]", "[телефон / e-mail]"],
+text(s, M, 5.4, 8.3, 0.8, ["[КОМАНДА АТАУЫ]  ·  [телефон / e-mail]"],
      size=16, color=WHITE)
 box(s, 9.55, 1.15, 3.0, 3.55, CREAM, radius=0.08)
 pic(s, A / "qr_dark.png", 9.75, 1.3, w=2.6)
